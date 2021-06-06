@@ -1,4 +1,4 @@
-# Dockerized React App on AWS EBS
+# Dockerized React App on AWS Elastic Beanstalk
 
 # Getting Started with Create React App
 
