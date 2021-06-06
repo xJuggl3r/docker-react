@@ -1,6 +1,9 @@
 version: "3"
 services: 
     web:
+        #stdin_open:true #to avoid exit(0) bug in some react versions
+        #environment: #to auto reload after changes in code. Only for Windows
+            #- CHOKIDAR_USEPOLLING=true
         build:
             context: .
             dockerfile: Dockerfile.dev
