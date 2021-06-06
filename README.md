@@ -1,4 +1,4 @@
-# Dockerized React App
+# Dockerized React App on AWS EBS
 
 # Getting Started with Create React App
 
